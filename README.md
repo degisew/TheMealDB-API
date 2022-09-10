@@ -12,7 +12,7 @@ This project is created using HTML5,SCSS and JavaScript with TheMealDB API that 
 - Kanban Board
 - TheMealDB API
 
-![](https://github.com/yasinabdmahmood/JavaScript-Group-Capstone/blob/dev/screen.png)
+![](https://github.com/degisew/TheMealDB-API/blob/main/screen.png)
 ## Live Demo 
 
 [Live Demo Link](https://degisew.github.io/TheMealDB API/dist/)
