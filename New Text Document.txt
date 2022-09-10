@@ -1,0 +1,36 @@
+JavaScript capstone project - TheMealDB API-based webApp
+In this PR, we implemented the following features:
+
+We have selected TheMealDB API
+We fetched a list of items with detailed informationa from the selected API based on unique item id .
+We used Involvement API to record the different user interactions (likes, comments, and reservations).
+we built three interfaces: the home page, the comments popup, and the reservations popup.
+When the home page loads, the web app retrieves data from:
+- The selected API and shows the list of items on the screen.
+- The Involvement API to show the item likes.
+When the user clicks on the Like button of an item, the interaction is recorded in the Involvement API and the screen is
+updated.
+When the user clicks on the "Comments" button, the Comments popup appears.
+When the user clicks on the "Reservations" button, the Reservations popup appears.
+When the comment popup loads, the web app retrieves data from:
+- The selected API and shows details about the selected item.
+- The Involvement API to show the item comments._
+When the user clicks on the "Comment" button, the data is recorded in the Involvement API and the screen is updated.
+When the reservation popup loads, the web app retrieves data from:
+- The selected API and shows details about the selected item.
+- The Involvement API to show the item reservations.
+When the user clicks on the "Reserve" button, the data is recorded in the Involvement API and the screen is updated.
+We created the counter function for all (home page, comments popup, and reservation popup) interfaces.
+
+
+   Dear [Student Success team member Name],
+I’m writing to inform you that [Project or Activity Name] is behind schedule. I apologize for the delay.
+I missed the last [number of days] and am unsure how long this will go on. The challenge I am currently facing is [explain the challenge you face as clearly as possible and in a professional way].
+I would like to ask for your advice on how to handle my absence [you can also simply request a leave of absence].
+Sincerely,
+[Your Name]
+
+
+
+I always try to understand the problem before I start doing and if there is a blocker, I always ask my partners for help.
+
