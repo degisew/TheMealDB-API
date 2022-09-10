@@ -15,7 +15,7 @@ This project is created using HTML5,SCSS and JavaScript with TheMealDB API that 
 ![](https://github.com/degisew/TheMealDB-API/blob/main/screen.png)
 ## Live Demo 
 
-[Live Demo Link](https://degisew.github.io/TheMealDB API/dist/)
+[Live Demo Link](https://degisew.github.io/TheMealDB-API/dist/)
 
 
 ## Getting Started
@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 
 open your terminal and type
 
- git clone <URL> https://github.com/degisew/TheMealDB API
+ git clone <URL> https://github.com/degisew/TheMealDB-API
     
     git checkout dev
 
