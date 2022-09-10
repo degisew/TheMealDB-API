@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.card img {
+  width: 100%;
+}
+
+.name-like img {
+  width: 30px;
+}
+
+.main-container {
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 1px 2px 5px 5px rgb(185, 183, 183);
+    min-height: 60px;
+
+    .nav-links {
+      font-size: 20px;
+      display: flex;
+      column-gap: 20px;
+
+      a {
+        text-decoration-line: none;
+      }
+    }
+
+    .logo {
+      font-family: "Lobster", cursive;
+      color: orangered;
+      font-size: 100px;
+      font-style: italic;
+
+      img {
+        width: 100px;
+      }
+    }
+  }
+
+  footer {
+    padding: 10px;
+    border: 5px solid black;
+  }
+
+  .comment-backdrop {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    pointer-events: all;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .comment-backdrop.visible {
+    display: block;
+    padding-left: 15px;
+    background-color: rgba(27, 27, 40, 0.95);
+    pointer-events: all;
+  }
+
+  .comment-popup {
+    display: none;
+    overflow: auto;
+    padding: 10px;
+    width: 35%;
+    height: 95%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 1;
+    // border: 5px solid red;
+  }
+
+  .comment-popup::-webkit-scrollbar {
+    display: none;
+  }
+
+  .visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+
+  .close-btn {
+    align-self: flex-end;
+    font-size: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  .header-div {
+    display: flex;
+    width: 100%;
+
+    .header-image {
+      width: 100%;
+      height: 200px;
+    }
+  }
+
+  #title {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .about-div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    #add-comment-btn {
+      width: 80px;
+      align-self: center;
+    }
+
+    .comment-input {
+      padding: 10px;
+    }
+  }
+}
+
+.counter {
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid black;
+  box-shadow: 1px 2px 5px 5px rgb(185, 183, 183);
+
+  h1 {
+    font-family: 'Lobster', cursive;
+  }
+}
+
+.container {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 32%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: lightblue;
+  border-radius: 2rem;
+}
+
+.name-like {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-like span {
+  font-size: 1.5rem;
+  font-family: 'Lobster', cursive;
+  font-weight: 700;
+}
+
+.like p {
+  font-weight: 700;
+}
+
+.comment-button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.reservation-button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.list {
+  overflow: scroll;
+  height: 150px;
+}
+
+.pmodal {
+  height: 90vh;
+}
